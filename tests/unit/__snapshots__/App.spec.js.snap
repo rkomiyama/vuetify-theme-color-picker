@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue App renders the same HTML 1`] = `
+<v-app-stub id="app">
+  <MainSiteContainer-stub></MainSiteContainer-stub>
+</v-app-stub>
+`;

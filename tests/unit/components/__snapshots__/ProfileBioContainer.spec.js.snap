@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileBioContainer.vue ProfileBioContainer renders the same HTML 1`] = `
+<v-content-stub tag="main">
+  <v-layout-stub tag="div" fill-height="">
+    <v-card-stub loaderHeight="4" tag="div" class="ma-auto">
+      <v-img-stub position="center center" src="https://riley.org" transition="fade-transition"></v-img-stub>
+      <v-card-title-stub>Bryon Quigley</v-card-title-stub>
+      <v-card-text-stub><span>Username: Mac96</span><br> <a href="http://abagail.us">http://abagail.us</a><br> <span>Public Repos: 99221</span><br> <span>Created at July 28, 2010 6:19 PM</span></v-card-text-stub>
+    </v-card-stub>
+  </v-layout-stub>
+</v-content-stub>
+`;

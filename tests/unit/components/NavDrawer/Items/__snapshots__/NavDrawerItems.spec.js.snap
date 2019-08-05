@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavDrawerItems.vue NavDrawerItems renders the same HTML 1`] = `
+<v-list-stub tag="div" tile="true" dense="true" expand="true" nav="true">
+  <SearchListGroup-stub></SearchListGroup-stub>
+  <ThemeListGroup-stub></ThemeListGroup-stub>
+</v-list-stub>
+`;

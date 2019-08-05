@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainSiteContainer.vue MainSiteContainer renders the same HTML 1`] = `
+<v-layout-stub tag="div">
+  <NavDrawer-stub></NavDrawer-stub>
+  <AppBar-stub searchUserOption="username"></AppBar-stub>
+  <!---->
+</v-layout-stub>
+`;

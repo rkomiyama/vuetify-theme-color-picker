@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavDrawerTitle.vue NavDrawerTitle renders the same HTML 1`] = `
+<v-toolbar-title-stub class="headline text-uppercase py-2 hidden-sm-and-up">
+  <v-flex-stub tag="div" class="d-flex align-center">
+    <v-img-stub height="36px" maxWidth="36px" position="center center" src="" transition="fade-transition"></v-img-stub> <span>GitHub </span> <span class="font-weight-light">PERSONAS</span>
+  </v-flex-stub>
+</v-toolbar-title-stub>
+`;

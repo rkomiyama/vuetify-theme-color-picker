@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavDrawer.vue NavDrawer renders the same HTML 1`] = `
+<v-navigation-drawer-stub app="true" height="100vh" miniVariantWidth="80" mobileBreakPoint="960" src="" tag="nav" width="256">
+  <v-layout-stub tag="div" class="d-block">
+    <NavDrawerTitle-stub></NavDrawerTitle-stub>
+    <NavDrawerItems-stub></NavDrawerItems-stub>
+  </v-layout-stub>
+</v-navigation-drawer-stub>
+`;

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeListGroup.vue ThemeListGroup renders the same HTML 1`] = `
+<v-list-group-stub color="primary" activeClass="" appendIcon="$vuetify.icons.expand" prependIcon="mdi-palette-advanced" ripple="true">
+  <v-list-item-group-stub value="0" activeClass="v-item--active" mandatory="true">
+    <v-list-item-stub activeClass="" link="true" tag="div" class="pl-10">
+      <v-list-item-action-stub>
+        <v-icon-stub color="#000000">
+          mdi-circle-outline
+        </v-icon-stub>
+      </v-list-item-action-stub>
+      <v-list-item-content-stub>
+        <v-flex-stub tag="div" class="d-flex">
+          <v-list-item-title-stub>Light</v-list-item-title-stub>
+          <v-switch-stub errorCount="1" errorMessages="" messages="" rules="" successMessages="" value="Light" backgroundColor="" ripple="true" valueComparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}" inset="true"></v-switch-stub>
+        </v-flex-stub>
+      </v-list-item-content-stub>
+    </v-list-item-stub>
+    <v-list-item-stub activeClass="" link="true" tag="div" class="pl-10">
+      <v-list-item-action-stub>
+        <v-icon-stub color="#000000">
+          mdi-circle
+        </v-icon-stub>
+      </v-list-item-action-stub>
+      <v-list-item-content-stub>
+        <v-flex-stub tag="div" class="d-flex">
+          <v-list-item-title-stub>Dark</v-list-item-title-stub>
+          <v-switch-stub errorCount="1" errorMessages="" messages="" rules="" successMessages="" value="Light" backgroundColor="" ripple="true" valueComparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}" inset="true"></v-switch-stub>
+        </v-flex-stub>
+      </v-list-item-content-stub>
+    </v-list-item-stub>
+    <v-list-item-stub activeClass="" link="true" tag="div" class="pl-10">
+      <v-list-item-action-stub>
+        <v-icon-stub color="#f44336">
+          mdi-circle
+        </v-icon-stub>
+      </v-list-item-action-stub>
+      <v-list-item-content-stub>
+        <v-flex-stub tag="div" class="d-flex">
+          <v-list-item-title-stub>Red</v-list-item-title-stub>
+          <!---->
+        </v-flex-stub>
+      </v-list-item-content-stub>
+    </v-list-item-stub>
+    <v-list-item-stub activeClass="" link="true" tag="div" class="pl-10">
+      <v-list-item-action-stub>
+        <v-icon-stub color="#673ab7">
+          mdi-circle
+        </v-icon-stub>
+      </v-list-item-action-stub>
+      <v-list-item-content-stub>
+        <v-flex-stub tag="div" class="d-flex">
+          <v-list-item-title-stub>Purple</v-list-item-title-stub>
+          <!---->
+        </v-flex-stub>
+      </v-list-item-content-stub>
+    </v-list-item-stub>
+    <v-list-item-stub activeClass="" link="true" tag="div" class="pl-10">
+      <v-list-item-action-stub>
+        <v-icon-stub color="#4caf50">
+          mdi-circle
+        </v-icon-stub>
+      </v-list-item-action-stub>
+      <v-list-item-content-stub>
+        <v-flex-stub tag="div" class="d-flex">
+          <v-list-item-title-stub>Green</v-list-item-title-stub>
+          <!---->
+        </v-flex-stub>
+      </v-list-item-content-stub>
+    </v-list-item-stub>
+  </v-list-item-group-stub>
+</v-list-group-stub>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchListGroup.vue SearchListGroup renders the same HTML 1`] = `
+<v-list-group-stub color="primary" value="true" activeClass="" appendIcon="$vuetify.icons.expand" prependIcon="mdi-magnify" ripple="true">
+  <v-list-item-group-stub value="0" activeClass="v-item--active" mandatory="true">
+    <v-list-item-stub activeClass="" link="true" tag="div" class="pl-10">
+      <v-list-item-action-stub>
+        <v-icon-stub>mdi-account-search</v-icon-stub>
+      </v-list-item-action-stub>
+      <v-list-item-content-stub>
+        <v-list-item-title-stub>Username</v-list-item-title-stub>
+      </v-list-item-content-stub>
+    </v-list-item-stub>
+    <v-list-item-stub activeClass="" link="true" tag="div" class="pl-10">
+      <v-list-item-action-stub>
+        <v-icon-stub>mdi-face</v-icon-stub>
+      </v-list-item-action-stub>
+      <v-list-item-content-stub>
+        <v-list-item-title-stub>Full name</v-list-item-title-stub>
+      </v-list-item-content-stub>
+    </v-list-item-stub>
+  </v-list-item-group-stub>
+</v-list-group-stub>
+`;
