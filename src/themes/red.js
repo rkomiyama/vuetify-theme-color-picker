@@ -6,19 +6,19 @@ export default {
       primary: "#f44336",
       secondary: "#ff5722",
       accent: "#D50000",
-      error: "#009688",
-      warning: "#4caf50",
-      info: "#8bc34a",
-      success: "#cddc39"
+      error: "#FF5252",
+      info: "#2196F3",
+      success: "#4CAF50",
+      warning: "#FFC107"
     },
     dark: {
       primary: "#f44336",
       secondary: "#ff5722",
       accent: "#D50000",
-      error: "#009688",
-      warning: "#4caf50",
-      info: "#8bc34a",
-      success: "#cddc39"
+      error: "#FF5252",
+      info: "#2196F3",
+      success: "#4CAF50",
+      warning: "#FB8C00"
     }
   }
 };
