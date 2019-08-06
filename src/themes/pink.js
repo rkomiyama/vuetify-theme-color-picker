@@ -1,20 +1,20 @@
 export default {
-  name: "Red",
-  color: "#f44336",
+  name: "Pink",
+  color: "#E91E63",
   themes: {
     light: {
-      primary: "#f44336",
-      secondary: "#FF5252",
-      accent: "#D50000",
+      primary: "#E91E63",
+      secondary: "#F8BBD0",
+      accent: "#FF4081",
       error: "#FF5252",
       info: "#2196F3",
       success: "#4CAF50",
       warning: "#FFC107"
     },
     dark: {
-      primary: "#f44336",
-      secondary: "#FF5252",
-      accent: "#D50000",
+      primary: "#E91E63",
+      secondary: "#F8BBD0",
+      accent: "#FF4081",
       error: "#FF5252",
       info: "#2196F3",
       success: "#4CAF50",

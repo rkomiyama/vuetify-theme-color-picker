@@ -1,7 +1,5 @@
 export default {
   name: "Purple",
-  light: true,
-  dark: false,
   color: "#673ab7",
   themes: {
     light: {

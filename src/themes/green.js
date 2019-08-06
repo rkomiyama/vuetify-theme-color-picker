@@ -1,7 +1,5 @@
 export default {
   name: "Green",
-  light: true,
-  dark: false,
   color: "#4caf50",
   themes: {
     light: {
