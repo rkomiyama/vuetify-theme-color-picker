@@ -22,18 +22,22 @@
             <v-switch
               v-if="theme.name === 'Light'"
               v-model.lazy="darkOrLight"
+              class="mt-0 pt-0"
               @change="clickSwitch('Light')"
               value="Light"
               @click="() => {}"
               inset
+              hide-details
             ></v-switch>
             <v-switch
               v-else-if="theme.name === 'Dark'"
               v-model.lazy="darkOrLight"
+              class="mt-0 pt-0"
               @change="clickSwitch('Dark')"
               value="Dark"
               @click="() => {}"
               inset
+              hide-details
             ></v-switch>
           </v-flex>
         </v-list-item-content>
