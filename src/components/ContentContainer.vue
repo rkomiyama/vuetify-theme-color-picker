@@ -1,19 +1,25 @@
 <template>
   <v-content>
-    <v-container>
-      <v-layout>
-        <v-flex>
-          <v-alert type="success">I'm a success alert.</v-alert>
-          <v-alert type="info">I'm an info alert.</v-alert>
-          <v-alert type="warning">I'm a warning alert.</v-alert>
-          <v-alert type="error">I'm an error alert.</v-alert>
+    <v-container grid-list-lg>
+      <v-layout wrap>
+        <v-flex xs6 sm3>
+          <v-alert type="success">Success</v-alert>
+        </v-flex>
+        <v-flex xs6 sm3>
+          <v-alert type="info">Info</v-alert>
+        </v-flex>
+        <v-flex xs6 sm3>
+          <v-alert type="warning">Warning</v-alert>
+        </v-flex>
+        <v-flex xs6 sm3>
+          <v-alert type="error">Error</v-alert>
         </v-flex>
       </v-layout>
-      <v-layout justify-center>
-        <v-flex xs6 md2>
+      <v-layout justify-center wrap>
+        <v-flex xs6 sm3 class="d-flex justify-center">
           <v-btn color="primary">Waddup</v-btn>
         </v-flex>
-        <v-flex xs6 md2>
+        <v-flex xs6 sm3 class="d-flex justify-center">
           <v-switch v-model="switch1" label="Switch" class="mt-0" inset hide-details></v-switch>
         </v-flex>
       </v-layout>
